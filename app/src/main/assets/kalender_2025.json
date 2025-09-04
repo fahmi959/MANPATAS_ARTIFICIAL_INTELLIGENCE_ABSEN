@@ -1,0 +1,511 @@
+{
+    "2025-01-01": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Hari Tahun Baru"
+        ]
+    },
+    "2025-01-25": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari Gizi Nasional"
+        ]
+    },
+    "2025-01-27": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Isra Mikraj Nabi Muhammad"
+        ]
+    },
+    "2025-01-28": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Cuti Bersama Tahun Baru Imlek"
+        ]
+    },
+    "2025-01-29": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Tahun Baru Imlek"
+        ]
+    },
+    "2025-02-09": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari Pers Nasional"
+        ]
+    },
+    "2025-03-01": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Ramadan Start"
+        ]
+    },
+    "2025-03-17": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari Perawat Nasional"
+        ]
+    },
+    "2025-03-28": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Cuti Bersama Hari Suci Nyepi (Tahun Baru Saka)"
+        ]
+    },
+    "2025-03-29": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Hari Suci Nyepi (Tahun Baru Saka)"
+        ]
+    },
+    "2025-03-31": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Hari Idul Fitri"
+        ]
+    },
+    "2025-04-01": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Hari Idul Fitri"
+        ]
+    },
+    "2025-04-02": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Cuti Bersama Idul Fitri"
+        ]
+    },
+    "2025-04-03": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Cuti Bersama Idul Fitri"
+        ]
+    },
+    "2025-04-04": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Cuti Bersama Idul Fitri"
+        ]
+    },
+    "2025-04-07": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Cuti Bersama Idul Fitri"
+        ]
+    },
+    "2025-04-18": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Wafat Yesus Kristus"
+        ]
+    },
+    "2025-04-20": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Hari (Paskah) Kebangkitan Yesus Kristus"
+        ]
+    },
+    "2025-04-21": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari Kartini"
+        ]
+    },
+    "2025-04-22": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari Bumi"
+        ]
+    },
+    "2025-05-01": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Hari Buruh Internasional / Pekerja"
+        ]
+    },
+    "2025-05-02": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari Pendidikan Nasional (Hardiknas)"
+        ]
+    },
+    "2025-05-12": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Hari Raya Waisak"
+        ]
+    },
+    "2025-05-13": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Cuti Bersama Waisak"
+        ]
+    },
+    "2025-05-29": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Kenaikan Isa Al Masih"
+        ]
+    },
+    "2025-05-30": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Cuti Bersama Kenaikan Isa Al Masih"
+        ]
+    },
+    "2025-06-01": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Hari Lahir Pancasila"
+        ]
+    },
+    "2025-06-05": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari Lingkungan Hidup Sedunia"
+        ]
+    },
+    "2025-06-06": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Hari Raya Idul Adha (Lebaran Haji) 1446 Hijriah"
+        ]
+    },
+    "2025-06-09": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Cuti Bersama Hari Raya Idul Adha"
+        ]
+    },
+    "2025-06-26": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari Anti Narkoba Sedunia"
+        ]
+    },
+    "2025-06-27": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Satu Muharam / Tahun Baru Hijriah"
+        ]
+    },
+    "2025-07-1": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "HUT Bhayangkara POLRI"
+        ]
+    },
+    "2025-07-23": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari Anak Nasional"
+        ]
+    },
+    "2025-08-12": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari UMKM Nasional"
+        ]
+    },
+    "2025-08-14": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari Pramuka"
+        ]
+    },
+    "2025-08-17": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Hari Proklamasi Kemerdekaan R.I."
+        ]
+    },
+    "2025-09-05": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Maulid Nabi Muhammad (belum pasti)"
+        ]
+    },
+    "2025-09-11": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari Radio Republik Indonesia - RRI"
+        ]
+    },
+    "2025-09-17": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari PMI - Palang Merah Indonesia"
+        ]
+    },
+    "2025-09-24": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari Tani Nasional"
+        ]
+    },
+    "2025-10-01": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari Kesaktian Pancasila"
+        ]
+    },
+    "2025-10-02": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari Batik"
+        ]
+    },
+    "2025-10-05": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari Lahir TNI"
+        ]
+    },
+    "2025-10-20": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari Dipawali"
+        ]
+    },
+    "2025-10-22": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari Santri Nasional"
+        ]
+    },
+    "2025-10-28": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari Sumpah Pemuda"
+        ]
+    },
+    "2025-11-10": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari Pahlawan"
+        ]
+    },
+    "2025-11-12": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari Ayah Nasional"
+        ]
+    },
+    "2025-11-25": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari Guru"
+        ]
+    },
+    "2025-12-09": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari Anti Korupsi Sedunia"
+        ]
+    },
+    "2025-12-16": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari Ulang Tahun Fahmi Ardiansyah"
+        ]
+    },
+    "2025-12-22": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Hari Ibu Nasional"
+        ]
+    },
+    "2025-12-25": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Hari Raya Natal - Kelahiran Yesus Kristus"
+        ]
+    },
+    "2025-12-26": {
+        "description": [
+            "Hari libur nasional"
+        ],
+        "holiday": true,
+        "summary": [
+            "Cuti Bersama Natal + (Hari Tinju Boxing)"
+        ]
+    },
+    "2025-12-31": {
+        "description": [
+            "Perayaan"
+        ],
+        "holiday": false,
+        "summary": [
+            "Malam Tahun Baru"
+        ]
+    },
+    "info": {
+        "author": "guangrei",
+        "link": "https://github.com/guangrei",
+        "updated": "20250805 17:05:32"
+    }
+}

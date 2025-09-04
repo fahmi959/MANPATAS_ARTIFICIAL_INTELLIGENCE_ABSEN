@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b1c6f8f0-3e28-4395-a7fc-9041fcac2b66" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/quiz-informatika.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assets/quiz-informatika.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/BroadcastActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/KalkulatorActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/MyApplication.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/ProfileActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/SplashActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/User.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/belajar_mandiri/Bab.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/belajar_mandiri/BabAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/belajar_mandiri/BelajarMandiriActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/belajar_mandiri/BelajarMandiriData.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/belajar_mandiri/VideoPlayerActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/chat/ChatActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/chat/ChatAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/chat/ChatMessage.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/login_register/FaceAnalyzer.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/login_register/FaceCaptureActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/login_register/FaceEmbedder.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/login_register/FaceRecognitionLoginActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/login_register/LoginActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/login_register/RegisterActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/maps/BootReceiver.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/maps/LocationTrackingService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/maps/MapsActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/rpp/AttendanceReportActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/rpp/AttendanceSession.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/rpp/AttendanceSessionAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/rpp/GenerateOTP_Presensi_Activity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/rpp/PdfViewerActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/rpp/PresensiActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/rpp/QuizActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/rpp/QuizQuestion.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/televisi/Channel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/televisi/ChannelAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/televisi/MainTelevisiActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/presensisiswainformatikabyfahmi/televisi/VideoPlayerActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/anim/fade_in.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/anim/fade_scale_rotate_in.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/animated_gradient.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/belajar_mandiri.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/bg_button_toggle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/bg_round_gray.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/cap_stempel_logoman4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/cetakunduh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/chat_bubble_left.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/chat_bubble_right.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/chat_input_bg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/circle_shadow_bg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/face_overlay_circle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/forum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/gradient1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/gradient2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/gradient3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/gradient_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_default_profile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_delete.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_edit_pencil.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_live_tv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_location_on.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_mic.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_new_feature.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_notification.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_send.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/kalender.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/kalkulator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/logo_kemenag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/mantap_superapps.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/maps.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/materi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/otp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/presensi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/profileman4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/question_card_bg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/quiz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/switch_thumb.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/switch_track.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/toast_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ttd_fahmi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ttd_kepala.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/youtube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_attendance_report.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_broadcast.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_face_capture.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_face_recognition_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_generate_otp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_kalkulator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_maps.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_presensi.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_profile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_register.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_splash.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/belajar_mandiri.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/chat_room.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/custom_info_window.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/item_attendance_session.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/item_belajar_mandiri.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/item_chat_message_left.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/item_chat_message_right.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/item_quiz_question.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/pdf_viewer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/quiz.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/tv_activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/tv_custom_toast.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/tv_item_channel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/tv_video_player.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/video_player.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/xml/file_paths.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/xml/provider_paths.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/xml/remote_config_defaults.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../gradlew.bat" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2zdaAdu5C2o5wfcIz8snrYUgzJS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "android.gradle.sync.needed": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "D:/PresensiSiswaInformatikabyFahmi - Copy - Copy"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1c6f8f0-3e28-4395-a7fc-9041fcac2b66" name="Changes" comment="" />
+      <created>1752063262484</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752063262484</updated>
+    </task>
+    <servers />
+  </component>
+</project>

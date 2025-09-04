@@ -1,0 +1,166 @@
+package com.man4tasik
+
+import android.Manifest
+import android.content.pm.PackageManager
+import android.os.Bundle
+import android.widget.Toast
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AppCompatActivity
+import androidx.camera.core.*
+import androidx.camera.lifecycle.ProcessCameraProvider
+import androidx.core.content.ContextCompat
+import com.man4tasik.databinding.ActivityRegisterStudentBinding
+import com.man4tasik.model.Student
+import com.man4tasik.utils.FaceEmbeddingExtractor
+import com.man4tasik.utils.FirebaseUtils
+import com.man4tasik.utils.flipHorizontally
+
+import java.util.concurrent.ExecutorService
+import java.util.concurrent.Executors
+
+class RegisterStudentActivity : AppCompatActivity() {
+
+    private lateinit var b: ActivityRegisterStudentBinding
+    private lateinit var cameraExecutor: ExecutorService
+    private var cameraSelector = CameraSelector.DEFAULT_FRONT_CAMERA
+
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        b = ActivityRegisterStudentBinding.inflate(layoutInflater)
+        setContentView(b.root)
+
+        // izin kamera
+        if (allPermissionsGranted()) {
+            startCamera()
+        } else {
+            requestPermission.launch(Manifest.permission.CAMERA)
+        }
+
+        cameraExecutor = Executors.newSingleThreadExecutor()
+
+
+        // tombol ganti kamera
+        b.btnSwitchCamera.setOnClickListener {
+            cameraSelector = if (cameraSelector == CameraSelector.DEFAULT_FRONT_CAMERA)
+                CameraSelector.DEFAULT_BACK_CAMERA
+            else
+                CameraSelector.DEFAULT_FRONT_CAMERA
+
+            startCamera()
+        }
+
+        b.btnRegister.setOnClickListener {
+            val name = b.edtName.text.toString()
+            val kelas = b.edtClass.text.toString()
+
+            if (name.isEmpty() || kelas.isEmpty()) {
+                Toast.makeText(this, "Isi nama & kelas", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+
+            // 👇 Placeholder proses ekstraksi embedding wajah
+            val fakeEmbedding = listOf(0.1f, 0.2f, 0.3f)
+
+            val cleanedName = name.trim().lowercase().replace(" ", "_")
+            val student = Student(
+                id = cleanedName,
+                name = name,
+                kelas = kelas,
+                faceEmbedding = fakeEmbedding
+            )
+
+            FirebaseUtils.addStudent(student) {
+                if (it) Toast.makeText(this, "Siswa terdaftar", Toast.LENGTH_SHORT).show()
+                else Toast.makeText(this, "Gagal daftar", Toast.LENGTH_SHORT).show()
+            }
+        }
+    }
+
+    private val requestPermission =
+        registerForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
+            if (granted) startCamera()
+            else Toast.makeText(this, "Izin kamera ditolak", Toast.LENGTH_SHORT).show()
+        }
+
+    private fun allPermissionsGranted() = ContextCompat.checkSelfPermission(
+        baseContext, Manifest.permission.CAMERA
+    ) == PackageManager.PERMISSION_GRANTED
+
+    private fun startCamera() {
+        val cameraProviderFuture = ProcessCameraProvider.getInstance(this)
+        cameraProviderFuture.addListener({
+            val cameraProvider = cameraProviderFuture.get()
+
+            val preview = Preview.Builder()
+                .build()
+                .also { it.setSurfaceProvider(b.viewFinder.surfaceProvider) }
+
+            val imageAnalyzer = ImageAnalysis.Builder()
+                .build()
+                .also {
+                    it.setAnalyzer(cameraExecutor, FaceAnalyzer())
+                }
+
+            try {
+                cameraProvider.unbindAll()
+                cameraProvider.bindToLifecycle(
+                    this, cameraSelector, preview, imageAnalyzer
+                )
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
+        }, ContextCompat.getMainExecutor(this))
+    }
+
+
+    private inner class FaceAnalyzer : ImageAnalysis.Analyzer {
+        override fun analyze(imageProxy: ImageProxy) {
+            var bitmap = imageProxy.toBitmap()
+
+            // Flip horizontal jika kamera depan (mirror)
+            if (cameraSelector == CameraSelector.DEFAULT_FRONT_CAMERA) {
+                bitmap = bitmap.flipHorizontally()
+            }
+
+            val extractor = FaceEmbeddingExtractor(this@RegisterStudentActivity)
+            val embedding = extractor.getEmbedding(bitmap).toList()
+
+            runOnUiThread {
+                b.btnRegister.setOnClickListener {
+                    val name = b.edtName.text.toString()
+                    val kelas = b.edtClass.text.toString()
+
+                    if (name.isEmpty() || kelas.isEmpty()) {
+                        Toast.makeText(this@RegisterStudentActivity, "Isi nama & kelas", Toast.LENGTH_SHORT).show()
+                        return@setOnClickListener
+                    }
+
+                    val cleanedName = name.trim().lowercase().replace(" ", "_")
+                    val student = Student(
+                        id = cleanedName,
+                        name = name,
+                        kelas = kelas,
+                        faceEmbedding = embedding
+                    )
+
+                    FirebaseUtils.addStudent(student) {
+                        Toast.makeText(
+                            this@RegisterStudentActivity,
+                            if (it) "Siswa terdaftar" else "Gagal daftar",
+                            Toast.LENGTH_SHORT
+                        ).show()
+                    }
+                }
+            }
+
+            imageProxy.close()
+        }
+    }
+
+
+    override fun onDestroy() {
+        super.onDestroy()
+        cameraExecutor.shutdown()
+    }
+}

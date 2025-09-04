@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema utama gelap -->
+    <style name="Theme.PresensiSiswaInformatikaByFahmi.Dark" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- Warna utama -->
+        <item name="colorPrimary">#4F46E5</item> <!-- Indigo 600 -->
+        <item name="colorPrimaryVariant">#4338CA</item> <!-- Indigo 700 -->
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Warna sekunder -->
+        <item name="colorSecondary">#14B8A6</item> <!-- Teal 500 -->
+        <item name="colorSecondaryVariant">#0D9488</item>
+        <item name="colorOnSecondary">#000000</item> <!-- teks di atas warna sekunder -->
+
+        <!-- Warna latar gelap -->
+        <item name="android:windowBackground">#121212</item> <!-- dark background -->
+        <item name="colorSurface">#1E1E1E</item> <!-- dark surface -->
+        <item name="colorOnSurface">#E5E7EB</item> <!-- abu terang untuk teks -->
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+</resources>

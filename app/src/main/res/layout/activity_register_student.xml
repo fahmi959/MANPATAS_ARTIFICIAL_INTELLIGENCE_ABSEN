@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F6F8">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp">
+
+        <androidx.camera.view.PreviewView
+            android:id="@+id/viewFinder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- Indikator Status Wajah -->
+    <TextView
+        android:id="@+id/tvFaceStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status wajah: Belum terdeteksi"
+        android:textColor="#D32F2F"
+        android:textStyle="bold"
+        android:background="#FFCDD2"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:elevation="4dp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <Button
+        android:id="@+id/btnSwitchCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tukar Kamera"
+        android:layout_gravity="end"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#1976D2"
+        android:textColor="#FFFFFF"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-medium" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Siswa"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tvKelasLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Kelas"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <Spinner
+        android:id="@+id/spinnerClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daftarkan Siswa"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-medium"/>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "956420146349",
+    "firebase_url": "https://man-4-tasikmalaya-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "man-4-tasikmalaya",
+    "storage_bucket": "man-4-tasikmalaya.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956420146349:android:c2f5ba8188518740da7224",
+        "android_client_info": {
+          "package_name": "com.man4tasik"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiVkPFj7vFTdJCzToUcG5OFXHsMoiBpQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,209 @@
+{
+  "title": "Quiz Informatika Kelas X",
+  "description": "Tes pemahaman materi Informatika kelas X.",
+  "questions": [
+    {
+      "question": "Berikut ini yang merupakan contoh perangkat lunak (software) adalah...",
+      "options": [
+        "CPU",
+        "RAM",
+        "Microsoft Word",
+        "Monitor"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Contoh penggunaan teknologi dalam kehidupan sehari-hari adalah...",
+      "options": [
+        "Membaca buku cetak",
+        "Menonton TV analog",
+        "Membeli barang melalui aplikasi e-commerce",
+        "Menulis surat manual"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Format file yang biasa digunakan untuk menyimpan dokumen teks adalah...",
+      "options": [
+        ".mp3",
+        ".jpg",
+        ".docx",
+        ".exe"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Salah satu contoh aplikasi kolaborasi daring adalah...",
+      "options": [
+        "Notepad",
+        "Paint",
+        "Google Docs",
+        "Calculator"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Ketika kita menggunakan gambar dari internet untuk tugas sekolah, sebaiknya...",
+      "options": [
+        "Mengubah warnanya",
+        "Mencantumkan sumbernya",
+        "Mengklaim sebagai milik sendiri",
+        "Menghapus logo"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Keterampilan generik yang penting untuk belajar informatika adalah...",
+      "options": [
+        "Menghafal rumus",
+        "Mengandalkan orang lain",
+        "Berpikir kritis dan kolaboratif",
+        "Menyendiri dan bekerja sendiri"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Keterampilan komunikasi dalam tim penting dalam informatika karena...",
+      "options": [
+        "Menurunkan produktivitas",
+        "Mengurangi konflik",
+        "Meningkatkan kerja sama dan hasil",
+        "Tidak ada pengaruhnya"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Apa fungsi utama sistem operasi pada komputer?",
+      "options": [
+        "Menyimpan file",
+        "Menjalankan aplikasi",
+        "Menghubungkan pengguna dengan perangkat keras",
+        "Mengatur jaringan"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Fungsi utama dari prosesor (CPU) pada komputer adalah...",
+      "options": [
+        "Menyimpan data jangka panjang",
+        "Mengontrol layar",
+        "Melakukan perhitungan dan mengeksekusi instruksi",
+        "Menghasilkan suara"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Dalam algoritma binary search, data harus berada dalam kondisi...",
+      "options": [
+        "Acak",
+        "Terurut naik atau turun",
+        "Berbentuk matriks",
+        "Disusun dalam array 2 dimensi"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Algoritma adalah...",
+      "options": [
+        "Bahasa pemrograman",
+        "Urutan langkah sistematis untuk menyelesaikan masalah",
+        "Komponen komputer",
+        "Jenis virus"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Contoh algoritma dalam kehidupan sehari-hari adalah...",
+      "options": [
+        "Menyanyi",
+        "Membuat kopi dengan langkah tertentu",
+        "Tidur siang",
+        "Bermain bola"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Contoh berpikir dekomposisi adalah...",
+      "options": [
+        "Mengerjakan seluruh tugas sekaligus",
+        "Menghindari masalah",
+        "Memecah tugas besar menjadi bagian kecil",
+        "Menunda pekerjaan"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Pola (pattern recognition) dalam berpikir komputasional adalah...",
+      "options": [
+        "Meniru teman",
+        "Mengenali kemiripan dalam masalah",
+        "Melukis pola batik",
+        "Membuat karya seni"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Abstraksi dalam berpikir komputasional berarti...",
+      "options": [
+        "Menghapus semua data",
+        "Fokus pada detail kecil",
+        "Mengabaikan informasi tidak penting",
+        "Menyimpan data"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Berikut ini adalah langkah-langkah berpikir komputasional, kecuali...",
+      "options": [
+        "Dekomposisi",
+        "Pola",
+        "Abstraksi",
+        "Konsumsi"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "question": "Urutan angka berikut ini: 7, 3, 5, 2, 9. Setelah disorting menggunakan Bubble Sort secara ascending, urutan akhirnya menjadi...",
+      "options": [
+        "9, 7, 5, 3, 2",
+        "2, 3, 5, 7, 9",
+        "7, 5, 3, 2, 9",
+        "2, 5, 3, 9, 7"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Berikut ini adalah hasil dari algoritma Insertion Sort secara descending pada data: 4, 2, 9, 1",
+      "options": [
+        "1, 2, 4, 9",
+        "9, 4, 2, 1",
+        "4, 9, 2, 1",
+        "2, 1, 4, 9"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "question": "Diberikan data yang sudah diurutkan secara ascending: 2, 4, 6, 8, 10, 12, 14\nJika ingin mencari angka 10 secara berurutan dari awal, maka angka tersebut ditemukan pada urutan ke...",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "question": "Dalam membuat program, penting untuk...",
+      "options": [
+        "Menebak langkahnya",
+        "Mengikuti intuisi saja",
+        "Menyusun langkah logis dan urut",
+        "Menghindari perencanaan"
+      ],
+      "answerIndex": 2
+    }
+  ]
+}
+
+
+
